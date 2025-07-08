@@ -46,7 +46,7 @@ const Popup = () => {
           <h1 className="font-mono text-xl font-semibold text-black">Parser Extensions</h1>
         </div>
 
-        <div className="flex items-center justify-between rounded-full bg-zinc-100 px-6 py-4 font-mono text-sm font-medium text-black">
+        <div className="flex items-center justify-between gap-1 rounded-full bg-zinc-100 px-6 py-4 font-mono text-sm font-medium text-black">
           <span className="truncate">{url}</span>
           <Switch />
         </div>
