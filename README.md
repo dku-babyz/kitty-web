@@ -147,7 +147,14 @@ can use only `content-script` without `@extension/` prefix
 
 ## Environment variables
 
-Read: [Env Documentation](packages/env/README.md)
+To configure the API base URL, set the `VITE_API_BASE_URL` environment variable in your `.env` file.
+
+Example:
+```
+VITE_API_BASE_URL=http://localhost:8000/api/v1
+```
+
+Read more about environment variables: [Env Documentation](packages/env/README.md)
 
 ## Boilerplate structure <a name="structure"></a>
 
