@@ -66,6 +66,10 @@ const manifest = {
     },
     {
       matches: ['http://*/*', 'https://*/*', '<all_urls>'],
+      js: ['content/word-replacer.iife.js'], // New content script for word replacement
+    },
+    {
+      matches: ['http://*/*', 'https://*/*', '<all_urls>'],
       css: ['content.css'],
     },
   ],
